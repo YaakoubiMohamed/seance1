@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Formulaire</title>
+        <meta charset="UTF-8">
+    </head>
+    <style>
+        .formgroup{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        label{
+            width: 10%;
+            float: left;
+        }
+        .inputstyle{
+            width: 30%;
+            height: 30px;
+            border-radius: 5px;
+        }
+        input[type=submit]{
+            margin-left: 10%;
+        }
+    </style>
+    <body>
+        <form>
+            <div class="formgroup">
+                <label>Cin:</label>
+                <input class="inputstyle" type="number" name="cin" required />
+            </div>
+            <div class="formgroup">
+                <label>Nom & Prenom:</label>
+                <input class="inputstyle" type="text" name="np" required  />
+            </div>
+            <div class="formgroup"></div>
+                <label>Email:</label>
+                <input class="inputstyle" type="email" name="email" required />
+            </div>
+            <div class="formgroup"></div>
+                <label>Password:</label>
+                <input class="inputstyle" type="password" name="password" required />
+            </div>
+            <div class="formgroup"></div>
+                <label></label>
+                <input type="submit" value="Envoyer" />
+            </div>
+        </form>
+    </body>
+</html>
